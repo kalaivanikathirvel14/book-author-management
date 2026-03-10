@@ -64,3 +64,65 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+# Book Author Management System
+
+This is a Laravel CRUD application to manage Authors and their Books.
+
+## Features
+
+- Author CRUD (Create, Read, Update, Delete)
+- Book CRUD
+- Author and Book Relationship
+- Dashboard showing total authors and books
+- Attractive UI using Blade and Tailwind CSS
+
+## Technologies Used
+
+- PHP
+- Laravel
+- MySQL
+- Blade
+- Tailwind CSS
+
+## Installation Steps
+
+1. Clone the repository
+
+git clone https://github.com/kalaivanikathirvel14/book-author-management.git
+
+2. Go to the project folder
+
+cd book-author-management
+
+3. Install dependencies
+
+composer install
+
+4. Create environment file
+
+copy .env.example .env
+
+5. Generate application key
+
+php artisan key:generate
+
+6. Configure database in .env
+
+DB_DATABASE=bookmanager  
+DB_USERNAME=root  
+DB_PASSWORD=
+
+7. Run migrations
+
+php artisan migrate
+
+8. Start the server
+
+php artisan serve
+
+## Access Application
+
+http://localhost:8000/dashboard
