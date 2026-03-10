@@ -126,3 +126,35 @@ php artisan serve
 ## Access Application
 
 http://localhost:8000/dashboard
+
+# Book & Author Management System
+
+This is a simple Laravel backend project to manage **Authors** and their **Books** with CRUD operations and relationships.
+
+## Features
+- Add / Edit / Delete Authors
+- Add / Edit / Delete Books
+- Each Book belongs to an Author
+- Dashboard showing:
+  - Total Authors
+  - Total Books
+- Clean UI using Tailwind CSS
+
+---
+
+## Requirements
+
+- PHP >= 8.1
+- Composer
+- MySQL
+- Laravel
+- XAMPP / Local Server
+
+---
+
+## Installation Steps
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/kalaivanikathirvel14/book-author-management.git
